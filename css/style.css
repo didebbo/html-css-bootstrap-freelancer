@@ -1,0 +1,9 @@
+body {
+    background-color: olive;
+    color: darkgreen;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
