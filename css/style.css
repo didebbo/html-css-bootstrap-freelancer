@@ -40,7 +40,6 @@ header .content ul li {
 /* ANCHOR MAIN */
 /* ANCHOR HERO*/
 main .hero {
-    /* height: 100px; */
     background-color: #1ABC9C;
 }
 
@@ -107,6 +106,26 @@ main .portfolio .myCard .content img {
     object-fit: cover;
     object-position: center;
 }
-
 /* /PORTFOLIO */
+
+/* ANCHOR ABOUT */
+main .about {
+    background-color: #1ABC9C;
+    color: #fff;
+}
+
+main .about .header {
+    margin: 24px 0;
+}
+
+main .about .header .title {
+    text-align: center;
+}
+
+main .about .sections .content {
+    padding: 0 60px;
+    margin: 24px 0;
+}
+
+/* /ABOUT */
 /* ANCHOR MAIN */
