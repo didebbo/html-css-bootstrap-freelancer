@@ -1,17 +1,3 @@
-/* ANCHOR Debug */
-[class*="d container"] {
-    border: 2px solid red;
-}
-
-[class*="d row"] {
-    border: 2px solid green;
-}
-
-[class*="d col"] {
-    border: 2px solid blue;
-}
-/* /Debug */
-
 /* ANCHOR Header */
 header {
     background-color: #2C3E50;
@@ -52,7 +38,7 @@ header .content ul li {
 /* /Header */
 
 /* ANCHOR MAIN */
-/* ANCHOR HERO SECTION */
+/* ANCHOR HERO*/
 main .hero {
     /* height: 100px; */
     background-color: #1ABC9C;
@@ -87,6 +73,40 @@ main .hero .content .image img {
     overflow: hidden;
     background-color: darkgrey;
 }
+/* /HERO */
 
-/* /HERO_SECTION */
+/* ANCHOR PORTFOLIO */
+
+main .portfolio .header .content {
+    margin: 24px 0;
+}
+main .portfolio .header .content .title {
+    text-align: center;
+}
+
+main .portfolio .myCard .content {
+    position: relative;
+    width: 100%;
+    margin: 12px 0;
+    /* height: 10px; */
+}
+
+main .portfolio .myCard .content::after {
+    display: block;
+    content: "";
+    padding-bottom: 100%;
+}
+
+main .portfolio .myCard .content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* /PORTFOLIO */
 /* ANCHOR MAIN */
