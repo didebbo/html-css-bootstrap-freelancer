@@ -118,16 +118,13 @@ main .about {
     padding: 24px 120px;
 }
 
-main .about .header {
-    margin: 24px 0;
-}
-
-main .about .header .title {
+main .about .title {
+    margin: 12px 0;
     text-align: center;
 }
 
-main .about .sections .content {
-    margin: 24px 0;
+main .about .info {
+    margin: 12px 12px;
 }
 /* /ABOUT */
 
@@ -135,14 +132,14 @@ main .about .sections .content {
 main .contact {
     padding: 24px 120px;
 }
-main .contact .title .content {
+main .contact .title {
     text-align: center;
-    margin: 24px 0;
+    margin: 12px 0;
 }
 
-main .contact .form .content {
+main .contact .form {
     display: flex;
-    margin: 24px 0;
+    margin: 12px 0;
     justify-content: center;
     align-items: center;
     background-color: gray;
