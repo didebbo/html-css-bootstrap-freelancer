@@ -112,6 +112,7 @@ main .portfolio .myCard .content img {
 main .about {
     background-color: #1ABC9C;
     color: #fff;
+    padding: 24px 120px;
 }
 
 main .about .header {
@@ -123,14 +124,14 @@ main .about .header .title {
 }
 
 main .about .sections .content {
-    /* padding: 0 60px; */
-    margin: 60px 60px;
+    margin: 24px 0;
 }
 /* /ABOUT */
 
 /* ANCHOR CONTACT */
-
-/* /CONTACT */
+main .contact {
+    padding: 24px 120px;
+}
 main .contact .title .content {
     text-align: center;
     margin: 24px 0;
@@ -138,11 +139,35 @@ main .contact .title .content {
 
 main .contact .form .content {
     display: flex;
-    margin: 0 60px;
+    margin: 24px 0;
     justify-content: center;
     align-items: center;
     background-color: gray;
     color: #fff;
     height: 400px;
 }
+/* /CONTACT */
 /* ANCHOR MAIN */
+
+/* ANCHOR FOOTER */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer .top {
+    background-color: #3A546D;
+    padding: 24px 0;
+}
+
+footer .top .content {
+    margin: 12px;
+    text-align: center;
+}
+
+footer .bottom{
+    background-color: #2C3E50;
+    padding: 24px 0;
+    text-align: center;
+}
+/* /FOOTER */
