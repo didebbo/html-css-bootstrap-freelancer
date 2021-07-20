@@ -123,9 +123,26 @@ main .about .header .title {
 }
 
 main .about .sections .content {
-    padding: 0 60px;
+    /* padding: 0 60px; */
+    margin: 60px 60px;
+}
+/* /ABOUT */
+
+/* ANCHOR CONTACT */
+
+/* /CONTACT */
+main .contact .title .content {
+    text-align: center;
     margin: 24px 0;
 }
 
-/* /ABOUT */
+main .contact .form .content {
+    display: flex;
+    margin: 0 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #fff;
+    height: 400px;
+}
 /* ANCHOR MAIN */
