@@ -5,6 +5,12 @@
     color: #fff;
     border: 1px solid #fff;
 }
+
+.btn.btn-green {
+    color: #fff;
+    background-color: #1ABC9C;
+    /* border: 1px solid #fff; */
+}
 /* /Pulsanti */
 
 /* ANCHOR Divisore */
@@ -108,23 +114,24 @@ main .about {
 /* /ABOUT */
 
 /* ANCHOR CONTACT */
-main .contact {
-    padding: 96px 120px;
-}
-main .contact .title {
-    text-align: center;
-    margin: 12px 0;
+main .contact input,
+main .contact textarea {
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
 }
 
-main .contact .form {
-    display: flex;
-    margin: 12px 0;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    color: #fff;
-    height: 400px;
+main .contact input:focus,
+main .contact textarea:focus {
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid;
 }
+
+main .contact textarea {
+    height: 100px;
+}
+
 /* /CONTACT */
 /* ANCHOR MAIN */
 
