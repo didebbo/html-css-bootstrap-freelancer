@@ -39,6 +39,8 @@
 }
 /* /Divisore */
 
+/*  */
+
 /* /Components */
 
 /* ANCHOR Header */
@@ -143,12 +145,23 @@ footer {
 
 footer .top {
     background-color: #3A546D;
-    padding: 96px 0;
 }
 
-footer .top .info {
-    margin: 12px;
-    text-align: center;
+footer .top .info .icons {
+    display: flex;
+    justify-content: center;
+}
+
+footer .top .info .icons i {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
 }
 
 footer .bottom{
@@ -157,3 +170,4 @@ footer .bottom{
     text-align: center;
 }
 /* /FOOTER */
+
