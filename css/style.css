@@ -72,6 +72,9 @@ header .navbar-toggler:focus {
 /* ANCHOR MAIN */
 
 /* ANCHOR HERO*/
+main {
+    margin-top: 50px;
+}
 main .hero {
     background-color: #1ABC9C;
     color: #fff;
