@@ -1,5 +1,12 @@
 /* ANCHOR Components */
 
+/* ANCHOR Pulsanti */
+.btn.btn-transparent {
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* /Pulsanti */
+
 /* ANCHOR Divisore */
 .div-star .bar {
     height: 5px;
@@ -26,13 +33,7 @@
 }
 /* /Divisore */
 
-
-
-
-
 /* /Components */
-
-
 
 /* ANCHOR Header */
 header {
@@ -103,15 +104,6 @@ main .portfolio .myCard img {
 main .about {
     background-color: #1ABC9C;
     color: #fff;
-    padding: 96px 120px;
-}
-
-main .about .title {
-    margin: 12px 0;
-}
-
-main .about .info {
-    margin: 12px 0;
 }
 /* /ABOUT */
 
