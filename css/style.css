@@ -3,43 +3,31 @@ header {
     background-color: #2C3E50;
 }
 
-header a {
+header .navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link,
+header .navbar-dark .navbar-toggler {
     color: #fff;
+}
+
+header .navbar-dark .navbar-brand {
+    font-weight: bold;
+}
+
+header .navbar-dark .navbar-toggler {
+    border-color: #fff;
+}
+
+header .navbar-toggler:focus {
     text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 .10rem;
 }
-
-header .title,
-header nav {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    padding: 12px 0;
-}
-
-header .title h3 {
-    margin: 0;
-}
-
-header nav ul {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    padding: 0 10px;
-}
-
 /* /Header */
 
 /* ANCHOR MAIN */
 
 main section {
-    padding: 24px 0;
+    padding: 96px 0;
 }
 
 /* ANCHOR HERO*/
@@ -115,22 +103,21 @@ main .portfolio .myCard img {
 main .about {
     background-color: #1ABC9C;
     color: #fff;
-    padding: 24px 120px;
+    padding: 96px 120px;
 }
 
 main .about .title {
     margin: 12px 0;
-    text-align: center;
 }
 
 main .about .info {
-    margin: 12px 12px;
+    margin: 12px 0;
 }
 /* /ABOUT */
 
 /* ANCHOR CONTACT */
 main .contact {
-    padding: 24px 120px;
+    padding: 96px 120px;
 }
 main .contact .title {
     text-align: center;
@@ -157,7 +144,7 @@ footer {
 
 footer .top {
     background-color: #3A546D;
-    padding: 24px 0;
+    padding: 96px 0;
 }
 
 footer .top .info {
@@ -167,7 +154,7 @@ footer .top .info {
 
 footer .bottom{
     background-color: #2C3E50;
-    padding: 24px 0;
+    padding: 96px 0;
     text-align: center;
 }
 /* /FOOTER */
