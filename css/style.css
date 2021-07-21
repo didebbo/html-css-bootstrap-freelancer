@@ -3,6 +3,7 @@
 /* ANCHOR Divisore */
 .div-star .bar {
     height: 5px;
+    width: 10px;
     border-radius: 25px;
 }
 
@@ -10,17 +11,17 @@
     font-size: 1.5rem;
 } 
 
-.div-star.light .bar {
+.div-star.div-star-light .bar {
     background-color: #fff;
 }
-.div-star.light i {
+.div-star.div-star-light i {
     color: #fff;
 }
 
-.div-star.dark .bar {
+.div-star.div-star-dark .bar {
     background-color: #2C3E50;
 }
-.div-star.dark i {
+.div-star.div-star-dark i {
     color: #2C3E50;
 }
 /* /Divisore */
@@ -71,21 +72,13 @@ main .hero .logo {
     width: 20%;
     border-radius: 50%;
 } 
-
 /* /HERO */
 
 /* ANCHOR PORTFOLIO */
-main .portfolio .title {
-    margin: 12px 0;
-    text-align: center;
-}
 
-main .portfolio .myCard {
-    position: relative;
+main .portfolio img {
     width: 100%;
-    margin: 12px 0;
-    border-radius: 12px;
-    overflow: hidden;
+    border-radius: 25px;
 }
 
 main .portfolio .myCard::after {
