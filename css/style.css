@@ -1,3 +1,38 @@
+/* ANCHOR Components */
+
+/* ANCHOR Divisore */
+.div-star .bar {
+    height: 5px;
+    border-radius: 25px;
+}
+
+.div-star i {
+    font-size: 1.5rem;
+} 
+
+.div-star.light .bar {
+    background-color: #fff;
+}
+.div-star.light i {
+    color: #fff;
+}
+
+.div-star.dark .bar {
+    background-color: #2C3E50;
+}
+.div-star.dark i {
+    color: #2C3E50;
+}
+/* /Divisore */
+
+
+
+
+
+/* /Components */
+
+
+
 /* ANCHOR Header */
 header {
     background-color: #2C3E50;
@@ -26,10 +61,6 @@ header .navbar-toggler:focus {
 
 /* ANCHOR MAIN */
 
-main section {
-    padding: 96px 0;
-}
-
 /* ANCHOR HERO*/
 main .hero {
     background-color: #1ABC9C;
@@ -37,34 +68,10 @@ main .hero {
 }
 
 main .hero .logo {
-    position: relative;
     width: 20%;
-    margin: 12px auto;
     border-radius: 50%;
-    overflow: hidden;
-}
-
-main .hero .logo::after {
-    display: block;
-    content: "";
-    padding-bottom: 100%;
-}
-
-main .hero .logo img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    background-color: darkblue;
-}
-
-main .hero .info {
-    text-align: center;
-    margin: 12px 0;
 } 
+
 /* /HERO */
 
 /* ANCHOR PORTFOLIO */
