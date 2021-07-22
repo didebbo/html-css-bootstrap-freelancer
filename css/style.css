@@ -166,6 +166,11 @@ footer .top .info .icons {
     justify-content: center;
 }
 
+footer .top .info .icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
 footer .top .info .icons i {
     display: flex;
     flex-shrink: 0;
