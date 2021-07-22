@@ -95,14 +95,9 @@ main .portfolio a {
     overflow: hidden;
 }
 
-main .portfolio a img {
-    width: 100%;
-}
-
-main .portfolio a:hover:after {
+main .portfolio a .cover {
     position: absolute;
     display: flex;
-    content: "+";
     background-color: #1ABC9C;
     color: #fff;
     top: 0;
@@ -113,6 +108,16 @@ main .portfolio a:hover:after {
     align-items: center;
     font-weight: 800;
     font-size: 5rem;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+main .portfolio a img {
+    width: 100%;
+}
+
+main .portfolio a:hover .cover {
+    opacity: 1;
 }
 
 /* /PORTFOLIO */
