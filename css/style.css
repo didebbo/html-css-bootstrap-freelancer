@@ -14,9 +14,11 @@
 /* /Pulsanti */
 
 /* ANCHOR Divisore */
-.div-star .bar {
+.div-star::before,
+.div-star::after {
+    content: "";
+    flex-grow: 1;
     height: 5px;
-    width: 10px;
     border-radius: 25px;
 }
 
@@ -24,14 +26,17 @@
     font-size: 1.5rem;
 } 
 
-.div-star.div-star-light .bar {
+.div-star.div-star-light::before,
+.div-star.div-star-light::after  {
     background-color: #fff;
 }
+
 .div-star.div-star-light i {
     color: #fff;
 }
 
-.div-star.div-star-dark .bar {
+.div-star.div-star-dark::before,
+.div-star.div-star-dark::after {
     background-color: #2C3E50;
 }
 .div-star.div-star-dark i {
