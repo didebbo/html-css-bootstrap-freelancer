@@ -142,15 +142,16 @@ main .contact textarea {
     border-radius: 0;
 }
 
+/* main .contact input::placeholder,
+main .contact textarea::placeholder {
+    color: #2C3E50;
+} */
+
 main .contact input:focus,
 main .contact textarea:focus {
     box-shadow: none;
     border: 0;
     border-bottom: 1px solid;
-}
-
-main .contact textarea {
-    height: 100px;
 }
 
 /* /CONTACT */
@@ -174,9 +175,6 @@ footer .top .info .icons {
 footer .top .info .icons a {
     color: #fff;
     text-decoration: none;
-}
-
-footer .top .info .icons i {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
